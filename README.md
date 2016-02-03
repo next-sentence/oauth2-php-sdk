@@ -5,7 +5,7 @@ This PHP - SDK helps developer to connect to REST Api php application via OAuth2
 
 Example
 -------
-``php
+```
 <?php
 
 use OAuth2\Factory;
@@ -33,4 +33,4 @@ try {
 } catch (Exception $e) {
     echo $e->getMessage();
 }
-
+```
